@@ -1,0 +1,57 @@
+{
+  "global.title.singular": "my",
+  "global.title.plural": "my",
+
+  "menu.home": "Home",
+  "menu.about": "About",
+  "menu.services": "Services",
+  "menu.portafolio": "Portafolio",
+  "menu.notes": "Notes",
+  "menu.network": "Social Networks",
+
+  "main-greting": "Hi",
+  "main-profession": "I Am ",
+  "main-description": "Front-End Developer and Engineering by profession, with creative, analytical, self-taught ability and problem-solving orientation. I specialize as a web developer to create and optimize websites that are interactive with the user applying Agile Methodology (Scrum) to successfully execute the assigned projects.",
+  "main-button": "see more",
+
+  "about-name": "Hi, my name is ",
+  "about-country": " I'm a Colombian web and mobile developer, with more than two year of experience.",
+  "about-experince": "I have worked with different companies in the development of their websites, corporate platforms and mobile applications, with participation in the design process and user experience, mainly focused on front-end development for digital products, I am passionate about technology, challenges and never stop appearing.",
+  "about-invited": "If you have a job offer, a project proposal or just want to say hello, please contact me.",
+  "about-download": "Download CV",
+
+  "skills-title": "services",
+  "skills-name-1": "developer",
+  "skills-description-1": "Developer with experience in backend, specialized in frontend and with knowledge in different programming languages.",
+  "skills-name-2": "mobile development",
+  "skills-description-2": "Knowledge in mobile development, in different native lenjuages and frameworks.",
+  "skills-name-3": "Responsive Design",
+  "skills-description-3": "Implementation of banners with Responsive design for different devices.",
+  "skills-name-4": "SEO",
+  "skills-description-4": "Knowledge and implementation of SEO, metadata and performance monitoring of your site in browsers.",
+  "skills-name-5": "web development",
+  "skills-description-5": "Publication of several websites for different companies, landings and customer relationship management (CRM).",
+  "skills-name-6": "web components",
+  "skills-description-6": "Implementation of web components, knowledge in different frameworks and libraries.",
+	
+	"portafolio-title": "portfolio",
+	"portafolio-all-filter": "All",
+	"portafolio-web-filter": "Web",
+	"portafolio-mobile-filter": "Mobile",
+	"portafolio-practice-filter": "Practice",
+	
+	"blog-title": "notes",
+	"blog-read": "Read more",
+	"blog-category-develoment": "develoment",
+	
+	"blog-webpack" : "Webpack is a static module package for modern JS applications: It builds a dependency graph that maps each module to one or more other modules as appropriate.",
+	"blog-typescript": "Typescript is a super typed set of javascript. It compiles to JS and we can use it in any browser or host.",
+	"blog-linkedin" : "LinkedIn is the most used network worldwide to search for candidates. The better your reputation, the better your sales, trust and loyalty of your users",
+	
+	
+	"social-media-title-white": "networks",
+	"social-media-title-green": "social",
+	
+	"gretings": "Made ♥ by ©NataliaEspinoza"
+	
+}

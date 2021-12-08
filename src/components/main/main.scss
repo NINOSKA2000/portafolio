@@ -1,0 +1,113 @@
+@import "./../../styles/globales.scss";
+@import "./../../styles/brakpoints.scss";
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
+  padding: 0 1.5rem;
+  position: relative;
+}
+
+
+
+
+#tsparticles {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.main-contenedor {
+  position: absolute;
+  top: 30%;
+  font-family: $font;
+  z-index: 1;
+  @include media(tablet) {
+    width: 80%;
+    top: 35%;
+  }
+  @include media(desktop-lg) {
+    width: 50%;
+  }
+}
+
+.main-contenedor-title {
+  font-size: 1.3rem;
+  @include media(tablet) {
+    font-size: 1.5rem;
+  }
+  @include media(desktop-lg) {
+    font-size: 1.7rem;
+  }
+}
+.main-contenedor-firs {
+  font-size: 1.8rem;
+  font-weight: bold;
+  @include media(tablet) {
+    font-size: 2rem;
+  }
+  @include media(desktop-lg) {
+    font-size: 2.2rem;
+  }
+}
+
+.main-contenedor-typed {
+  color: $main-color;
+}
+
+.main-contenedor-text {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  @include media(tablet) {
+    font-size: 1.2rem;
+  }
+  @include media(desktop-lg) {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+}
+
+.main-contenedor-button {
+  display: inline-block;
+  background-color: $main-color;
+  border-radius: 30px;
+  padding: 10px 28px;
+  margin-top: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  @include media(tablet) {
+    font-size: 1rem;
+  }
+  &:hover {
+    font-weight: bold;
+    color: $main-color;
+    background-color: white;
+  }
+}
+
+
+
+// particles 
+
+// body {
+//   background: #111;
+//   overflow: hidden;
+// }
+
+// canvas {
+//   bottom: 0;
+//   left: 0;
+//   margin: auto;
+//   position: absolute;
+//   right: 0;
+//   top: 0;
+// }

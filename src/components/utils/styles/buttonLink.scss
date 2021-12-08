@@ -1,0 +1,16 @@
+@import './../../../styles/globales.scss';
+
+// $main-color:  #08d665;
+// $second-color: #fff;
+// $third-color: #000;
+// $font : 'Poppins', sans-serif;
+
+.button-link{
+	text-decoration: none;
+	display: inline-block;
+	color: $second-color;
+	background-color: $main-color	;
+	border-radius: 2rem;
+	padding: 0.5rem 1.2rem;
+	cursor: pointer;
+}

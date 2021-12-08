@@ -1,0 +1,55 @@
+@import "./../../styles/globales.scss";
+@import "./../../styles/brakpoints.scss";
+
+.services {
+  padding-top: 5rem;
+}
+
+.services-grid {
+  max-width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 80%);
+  grid-template-rows: repeat(6, auto);
+  justify-content: center;
+	@include media(tablet){
+		grid-template-columns: repeat(2, 35%);
+		grid-template-rows: repeat(3, auto);
+		grid-area: 1.5rem;
+		justify-content: space-evenly;
+	}
+	@include media(desktop-lg){
+		grid-template-columns: repeat(3, 25%);
+		grid-template-rows: repeat(2, auto);
+	}
+}
+
+.services-grid_box {
+  border: 1px solid $second-color;
+  border-radius: 5px;
+  box-sizing: border-box;
+  justify-self: center;
+  text-align: center;
+  padding: 5%;
+  margin: 5% 0;
+  &--img {
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    img {
+      width: 80%;
+      height: auto;
+    }
+  }
+  &--title {
+    color: $main-color;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1% 0;
+  }
+  &--description {
+    font-size: 0.9rem;
+  }
+}

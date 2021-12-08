@@ -1,0 +1,179 @@
+@import "./../../styles/globales.scss";
+@import "./../../styles/brakpoints.scss";
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  @include media(desktop-lg) {
+    padding: 0.8rem 1.5rem;
+  }
+}
+
+.scroll {
+  @include media(desktop-lg) {
+    height: 100px;
+    transition: 0.9s;
+    background: black;
+  }
+}
+.header-logo {
+  a {
+    cursor: pointer;
+    color: $main-color;
+    font-family: $font;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-decoration: none;
+    @include media(tablet) {
+      font-size: 1.9rem;
+    }
+  }
+}
+
+.header-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 70%;
+  margin-left: -100%;
+  transition: all 0.3s linear;
+  background-color: $main-color;
+  z-index: 1;
+  @include media(desktop-lg) {
+    position: initial;
+    margin-left: 0;
+    height: auto;
+    width: 100%;
+    background: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  & nav {
+    padding-top: 1.5rem;
+    @include media(desktop-lg) {
+      padding: 0;
+    }
+  }
+  &_links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    @include media(desktop-lg) {
+      flex-direction: row;
+      justify-content: space-between;
+      flex-grow: 8;
+    }
+    a {
+      font-size: 1.3rem;
+      text-decoration: none;
+      color: black;
+      padding: 0.8rem;
+      width: 100%;
+      font-family: $font;
+      font-weight: bold;
+      text-align: center;
+      cursor: pointer;
+      @include media(tablet) {
+        font-size: 1.5rem;
+      }
+      @include media(desktop-lg) {
+        font-size: 1.1rem;
+        color: white;
+      }
+      &:hover {
+        background-color: black;
+        color: white;
+        @include media(desktop-lg) {
+          background-color: initial;
+          color: $main-color;
+        }
+      }
+      &.activeLink {
+        background-color: black;
+        color: white;
+        @include media(desktop-lg) {
+          background-color: initial;
+          color: $main-color;
+        }
+      }
+    }
+  }
+}
+
+.show {
+  margin-left: 0;
+}
+
+.header-lenguajes {
+  display: flex;
+  justify-content: center;
+  @include media(desktop-lg) {
+    margin-left: 1.5rem;
+  }
+  & button {
+    border: none;
+    margin: 5px;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    & img {
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    &:hover {
+      border-radius: 50px;
+      background-color: white;
+      transition: 1s;
+      transform: scale(1.1);
+    }
+  }
+}
+
+.header-button button {
+  z-index: 10;
+  width: 3rem;
+  height: 1.5rem;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  background: none;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  @include media(desktop-lg) {
+    display: none;
+  }
+  & span {
+    width: 2rem;
+    height: 0.3rem;
+    margin-top: 0.2rem;
+    position: relative;
+    background-color: $main-color;
+    transform-origin: 4px 0px;
+    transition: all 0.3s linear;
+  }
+}
+
+.close span {
+  opacity: 1;
+  transform: rotate(45deg) translate(0px, 0px);
+  background: black;
+}
+
+.close span:nth-child(2) {
+  transform: rotate(-45deg) translate(-8px, 5px);
+}
+
+.close span:nth-child(3) {
+  display: none;
+}

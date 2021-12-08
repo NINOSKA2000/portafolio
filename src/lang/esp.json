@@ -1,0 +1,55 @@
+{
+  "global.title.singular": "mi",
+  "global.title.plural": "mis",
+
+  "menu.home": "Inicio",
+  "menu.about": "Acerca de Mi",
+  "menu.services": "Servicios",
+  "menu.portafolio": "Portafolio",
+  "menu.notes": "Notas",
+  "menu.network": "Redes Sociales",
+
+  "main-greting": "Hola ",
+  "main-profession": "Soy ",
+  "main-description": "Desarrollador Front-End e Ingeniería de profesión, con capacidad creativa, analítica, autodidacta y orientación a resolución de problemas. Me especializo como Desarrolladora web para crear y optimizar sitios web que sean interactivos con el usuario aplicando Metodología Agil (Scrum) para ejecutar con éxito los proyectos asignados.",
+  "main-button": "ver mas",
+
+  "about-name": "Hola, mi nombre es ",
+  "about-country": " Soy un desarrollador web ",
+  "about-experince": "He trabajado con diferentes empresas en el desarrollo de sus sitios web, plataformas corporativas y aplicaciones móviles, con  participación en el proceso de diseño  y la experiencia del usuario, principalmente enfocado en el desarrollo front-end para productos digitales, me apasiona la tecnología, los retos y nunca parar de aparecer.",
+  "about-invited": "Si tienes una oferta de trabajo, una propuesta de proyecto o simplemente quieres saludarme, ponte en contacto conmigo.",
+  "about-download": "Descargar CV",
+
+  "skills-title": "servicios",
+  "skills-name-1": "Desarrollador",
+  "skills-description-1": "Desarrollador con experiencia en backend, especializado en frontend y con conocimientos en diferentes lenguajes de programación.",
+  "skills-name-2": "desarrollo móvil",
+  "skills-description-2": "Conocimientos en desarrollo móvil, en diferentes lenguajes y frameworks nativos.",
+  "skills-name-3": "diseño responsivo",
+  "skills-description-3": "Implementación de banners con  diseño responsivo para diferentes dispositivos.",
+  "skills-name-4": "seo",
+  "skills-description-4": "Conocimiento y aplicación de SEO, metadatos y seguimiento del rendimiento de su sitio en los navegadores.",
+  "skills-name-5": "desarrollo web",
+  "skills-description-5": "Publicación de varias páginas web para diferentes empresas, landings y gestión de relaciónes con los clientes (CRM).",
+  "skills-name-6": "componentes web",
+  "skills-description-6": "Implementación de componentes web, conocimiento en diferentes frameworks y librerías.",
+	
+	"portafolio-title": "portafolio",
+	"portafolio-all-filter": "Todos",
+	"portafolio-web-filter": "Web",
+	"portafolio-mobile-filter": "Mobile",
+	"portafolio-practice-filter": "Practica",
+	
+	"blog-title": "notas",
+	"blog-read": "Leer mas",
+	"blog-category-develoment": "desarrollo",
+	
+	"blog-webpack": "Webpack es un paquete de módulos estáticos para aplicaciones JS modernas: Construye un gráfico de dependencias que mapea cada módulo a uno o más módulos según corresponda.",
+	"blog-typescript": "Typescript Es un super conjunto tipado de javascript. Que compila a JS y que podemos usarlo en cualquier navegador o host.",
+	"blog-linkedin" : "LinkedIn Es la red más usada a nivel mundial para buscar candidatos, Cuanto mejor sea tu reputación mejores serán tus ventas, la confianza y la fidelidad de tus usuarios",
+	
+	"social-media-title-white": "sociales",
+	"social-media-title-green": "redes",
+	
+	"gretings":"Realizado ♥ por ©NataliaEspinoza"
+}
