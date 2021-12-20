@@ -9,10 +9,10 @@
   "menu.notes": "Notes",
   "menu.network": "Social Networks",
 
-  "main-greting": "Hi",
-  "main-profession": "I Am ",
-  "main-description": "Front-End Developer and Engineering by profession, with creative, analytical, self-taught ability and problem-solving orientation. I specialize as a web developer to create and optimize websites that are interactive with the user applying Agile Methodology (Scrum) to successfully execute the assigned projects.",
-  "main-button": "see more",
+  "main-greting": "Hi, I Am Natalia Espinoza",
+  "main-profession": " ",
+  "main-description": "a front-end developer: my creativity, analytical skills and goal orientation allow me to develop valuable products. As a web designer, I successfully create and optimize interactive websites using Agile Methodology (Scrum) to execute assigned projects. I am looking to face new challenges and pursue my passion as a front-end developer",
+  "main-button": "see proyects",
 
   "about-name": "Hi, my name is ",
   "about-country": " I'm a Colombian web and mobile developer, with more than two year of experience.",
@@ -52,6 +52,7 @@
 	"social-media-title-white": "networks",
 	"social-media-title-green": "social",
 	
-	"gretings": "Made ♥ by ©NataliaEspinoza"
+	"gretings": "Made ♥ by ©NataliaEspinoza",
+  "cv":"https://drive.google.com/file/d/1KjoZvUh3oY3sY8KHgg5nTpbN1TJuxylk/view?usp=sharing"
 	
 }

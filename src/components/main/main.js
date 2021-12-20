@@ -1,5 +1,6 @@
 import React from "react";
 import "./main.scss";
+import About from "../about/About";
 
 // import MainTyped from './mainTyped';
 import { FormattedMessage } from "react-intl";
@@ -23,15 +24,24 @@ const Main = () => {
           </p>
           <Link
             className="main-contenedor-button"
-            to="about"
+            to="portafolio"
             smooth={true}
             duration={3000}
             spy={true}
           >
             <FormattedMessage id="main-button" />
           </Link>
+
+         <About/>
+          
         </div>
-      </div>
+        </div>
+        
+
+     
+
+        
+        
     </section>
   );
 };
