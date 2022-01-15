@@ -1,36 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 
 import { FormattedMessage } from "react-intl";
 import "./styles/buttonLink.scss";
 
 const ButtonLink = (props) => {
 
-  console.log((<FormattedMessage id="cv" />));
+ const [targettext,settargettext]=useState(" ");
+
   return (
     <>
       <a
         className="button-link"
         download={props.dowloand}
-        href={props.href}
-        onClick={props.evento}
+         onClick={(e)=> settargettext(e.target.innerText) }
+        href={ targettext==="Download CV" ? (props.cvEnglish): props.cvEspañol }
         target={props.target}
       >
         <FormattedMessage id={props.text} defaultMessage={props.default} />
       </a>
 
-      <div>
-        {/* descarga segun el idioma
-        <a
-          className="button-link"
-          // download={<FormattedMessage id="cv" defaultMessage="cv" />}
-          href={<FormattedMessage id="cv" defaultMessage="cv" />}
-          onClick={props.evento}
-          
-        >
-          
-          <FormattedMessage id="Download CV" defaultMessage="Download CV" />
-        </a> */}
-      </div>
     </>
   );
 };

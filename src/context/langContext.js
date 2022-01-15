@@ -27,6 +27,8 @@ const LangProvider = ({children}) => {
 		}
 	}
 
+
+
 	return ( 
 		<langContext.Provider value={{establecerLenjuage: establecerLenjuage}}>
 			<IntlProvider locale={locale} messages={mensaje}>

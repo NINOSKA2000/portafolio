@@ -6,13 +6,13 @@ export const opcionesMenu = [
 		id: 1,
 		to: "home"
 	},
-	{
-		nombre: 'About',
-		int: "menu.about",
-		default: 'About',
-		id: 2,
-		to: "about"
-	},
+	// {
+	// 	nombre: 'About',
+	// 	int: "menu.about",
+	// 	default: 'About',
+	// 	id: 2,
+	// 	to: "about"
+	// },
 	// {
 	// 	nombre: 'Service',
 	// 	int: "menu.services",
@@ -24,21 +24,21 @@ export const opcionesMenu = [
 		nombre: 'Portafolio',
 		int: "menu.portafolio",
 		default: 'Portafolio',
-		id: 4,
+		id: 2,
 		to: "portafolio"
 	},
-	// {
-	// 	nombre: 'Notes',
-	// 	int: "menu.notes",
-	// 	default: 'Notes',
-	// 	id: 5,
-	// 	to: "blog"
-	// },
+	{
+		nombre: 'skills',
+		int: "menu.skills",
+		default: 'Skills',
+		id: 3,
+		to: "Skills"
+	},
 	{
 		nombre: 'Network',
 		int: "menu.network",
 		default: 'Network',
-		id: 6,
+		id: 4,
 		to: "network"
 	}
 ]

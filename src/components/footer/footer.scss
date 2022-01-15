@@ -1,37 +1,6 @@
 @import "./../../styles/globales.scss";
 
 
-.footer-icons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-	padding: 2rem 0;
-}
-
-.footer-icons_box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 2% 5%;
-  &-icon {
-    width: 55px;
-    text-align: center;
-    background-color: $main-color;
-    border-radius: 35px;
-    padding: 0.5rem;
-    cursor: pointer;
-		text-decoration: none;
-		color: white;
-  }
-  &-title {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 0.8rem;
-    margin-top: 5%;
-  }
-}
 
 .grettings {
   width: 100%;

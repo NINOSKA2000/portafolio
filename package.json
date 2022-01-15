@@ -25,6 +25,7 @@
 		"styled-components": "^5.3.3",
 		"typed-js": "^0.2.3",
 		"typed.js": "^2.0.12",
+		"typewriter-effect": "^2.18.2",
 		"web-vitals": "^1.1.2"
 	},
 	"scripts": {

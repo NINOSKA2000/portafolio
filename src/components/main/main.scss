@@ -10,8 +10,6 @@
 }
 
 
-
-
 #tsparticles {
   position: absolute;
   margin: 0;
@@ -73,6 +71,14 @@
   }
 }
 
+
+.main-contenedor-buttons{
+  display: flex;
+  align-items: baseline;
+  text-align: center;
+}
+
+
 .main-contenedor-button {
   display: inline-block;
   background-color: $main-color;
@@ -95,19 +101,18 @@
 }
 
 
+.name {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  background: rgb(249, 251, 106);
+  letter-spacing: -2px;
+  background-clip: text;
+  background-image: linear-gradient(to right, rgb(156, 14, 184), rgb(252, 183, 92));
+  -webkit-text-fill-color: transparent;
+  -o-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  animation: hue 2s infinite linear;
+}
 
-// particles 
 
-// body {
-//   background: #111;
-//   overflow: hidden;
-// }
-
-// canvas {
-//   bottom: 0;
-//   left: 0;
-//   margin: auto;
-//   position: absolute;
-//   right: 0;
-//   top: 0;
-// }

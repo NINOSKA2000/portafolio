@@ -1,17 +1,20 @@
-import React from 'react'
+import React from 'react';
+import './footer.scss';
 
-import TitleSection from './../utils/titleSection'
-import Icons from './components/Icons'
-import Greetings from './components/greetings'
+import { FormattedMessage } from "react-intl";
 
-import './footer.scss'
 
 const Footer = () => {
 	return (
 		<footer className="network">
-			<TitleSection title="social-media-title-white" tipoTitle="social-media-title-green"/>
-			<Icons />
-			<Greetings />
+					<div className="grettings">
+			<p>
+				<FormattedMessage 
+					id="gretings"
+					defaultMessage="gretings"
+				/>
+				</p>
+		</div>
 		</footer>
 	)
 }
