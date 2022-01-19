@@ -19,8 +19,6 @@
   "about-experince": "I have worked with different companies in the development of their websites, corporate platforms and mobile applications, with participation in the design process and user experience, mainly focused on front-end development for digital products, I am passionate about technology, challenges and never stop appearing.",
   "about-invited": "If you have a job offer, a project proposal or just want to say hello, please contact me.",
   "about-download": "Download CV",
-
-  "skills-title": "services",
   "skills-name-1": "developer",
   "skills-description-1": "Developer with experience in backend, specialized in frontend and with knowledge in different programming languages.",
   "skills-name-2": "mobile development",
@@ -40,15 +38,10 @@
 	"portafolio-mobile-filter": "Mobile",
 	"portafolio-practice-filter": "Practice",
 	
-	"blog-title": "notes",
-	"blog-read": "Read more",
-	"blog-category-develoment": "develoment",
 	
-	"blog-webpack" : "Webpack is a static module package for modern JS applications: It builds a dependency graph that maps each module to one or more other modules as appropriate.",
-	"blog-typescript": "Typescript is a super typed set of javascript. It compiles to JS and we can use it in any browser or host.",
-	"blog-linkedin" : "LinkedIn is the most used network worldwide to search for candidates. The better your reputation, the better your sales, trust and loyalty of your users",
-	
-	
+	"skills-title":"skills",
+
+ 
 	"social-media-title-white": "networks",
 	"social-media-title-green": "social",
   "social-media-description":"You can contact me through the form or through the networks mentioned below. I will try to answer you as fast as I can.",

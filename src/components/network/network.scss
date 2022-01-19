@@ -2,6 +2,7 @@
 @import "./../../styles/brakpoints.scss";
 
 .section-social {
+  margin-bottom: 2em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,6 +14,7 @@
     flex-direction: row;
     gap: 2em;
     justify-content: center;
+    align-items: flex-start;
   }
   @include media(desktop-lg) {
     width: 80%;
@@ -20,22 +22,26 @@
     gap: 2em;
     margin-left: 1em;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
 }
 
 .social-photo {
   width: 30%;
-  justify-content: center;
+  justify-content:flex-start;
   display: flex;
   border: 2px double pink;
   border-image: -webkit-linear-gradient(80deg, rgb(20, 19, 19), $main-color) 20
     stretch;
+
+
+
 }
 
 .social-photo img {
   width: 100%;
   object-fit: fill;
+
   }
 
 .section-contact {

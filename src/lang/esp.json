@@ -20,35 +20,16 @@
   "about-invited": "Si tienes una oferta de trabajo, una propuesta de proyecto o simplemente quieres saludarme, ponte en contacto conmigo.",
   "about-download": "Descargar CV",
 
-  "skills-title": "servicios",
-  "skills-name-1": "Desarrollador",
-  "skills-description-1": "Desarrollador con experiencia en backend, especializado en frontend y con conocimientos en diferentes lenguajes de programación.",
-  "skills-name-2": "desarrollo móvil",
-  "skills-description-2": "Conocimientos en desarrollo móvil, en diferentes lenguajes y frameworks nativos.",
-  "skills-name-3": "diseño responsivo",
-  "skills-description-3": "Implementación de banners con  diseño responsivo para diferentes dispositivos.",
-  "skills-name-4": "seo",
-  "skills-description-4": "Conocimiento y aplicación de SEO, metadatos y seguimiento del rendimiento de su sitio en los navegadores.",
-  "skills-name-5": "desarrollo web",
-  "skills-description-5": "Publicación de varias páginas web para diferentes empresas, landings y gestión de relaciónes con los clientes (CRM).",
-  "skills-name-6": "componentes web",
-  "skills-description-6": "Implementación de componentes web, conocimiento en diferentes frameworks y librerías.",
-	
+
 	"portafolio-title": "portafolio",
 	"portafolio-all-filter": "Todos",
 	"portafolio-web-filter": "Web",
 	"portafolio-mobile-filter": "Mobile",
 	"portafolio-practice-filter": "Practica",
 	
-	"blog-title": "notas",
-	"blog-read": "Leer mas",
-	"blog-category-develoment": "desarrollo",
-	
-	"blog-webpack": "Webpack es un paquete de módulos estáticos para aplicaciones JS modernas: Construye un gráfico de dependencias que mapea cada módulo a uno o más módulos según corresponda.",
-	"blog-typescript": "Typescript Es un super conjunto tipado de javascript. Que compila a JS y que podemos usarlo en cualquier navegador o host.",
-	"blog-linkedin" : "LinkedIn Es la red más usada a nivel mundial para buscar candidatos, Cuanto mejor sea tu reputación mejores serán tus ventas, la confianza y la fidelidad de tus usuarios",
-	
-	"social-media-title-white": "sociales",
+  "skills-title":"Conocimiento técnico",
+  		
+	"social-media-title-white": "red",
 	"social-media-title-green": "redes",
   "social-media-description":"Puede ponerse en contacto conmigo  a travez del formulario o por medio de  las redes  mencionados a continuación. Trataré de responderte lo más rápido que pueda.",
   "social-media-form-name":"tu name",

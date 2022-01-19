@@ -11,6 +11,12 @@ import { FormattedMessage } from "react-intl";
 function Network() {
   return (
     <>
+              <TitleSection
+        title="social-media-title-white"
+        tipoTitle="global.title.singular"
+      />
+
+
       <section className="section-social">
         <div className="social-photo">
           <img src={perfil} alt="Natalia espinoza " />

@@ -7,6 +7,7 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 import { iconFront } from "./components/listIcon";
 import { iconFrame } from "./components/listIcon";
 import { listBD } from "./components/listIcon";
+import TitleSection from "../utils/titleSection";
 
 import "./skills.scss";
 
@@ -16,6 +17,11 @@ library.add(fab);
 const Skills= () => {
   return (
     <>
+          <TitleSection
+        title="skills-title"
+        tipoTitle="global.title.singular"
+      />
+
       <div className="iconos">
         <div className="iconos-caja">
           {iconFront.map((icono, ind) => (
