@@ -3,8 +3,12 @@
 
 .portafolio {
   padding: 5rem 0;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+//falta añadir los filtros 
 .portafolio-filters {
   padding: 2% 5%;
   width: 100%;
@@ -17,80 +21,34 @@
   }
 }
 
-.portafolio-images {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 1rem 1.5rem;
-  justify-content: center;
-  align-items: center;
-  gap: 1.5rem;
-  &_caja {
-    width: 90%;
-    height: 30vh;
-    place-content: initial;
+
+.proyect{
+  padding: 1em;
+  // background: #1e1535;
+
+  // .container {
+          
+  // }
+
+  .container-proyectos {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    gap: 1em;
+  
     @include media(tablet) {
-      width: 40%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+       grid-template-areas: "card card image";
+      grid-gap: 50px;
     }
     @include media(desktop-lg) {
-      width: 25%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
     }
-    figure {
-      width: 100%;
-      height: 100%;
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: top;
-      }
-    }
+
   }
+  
 }
 
-.iconos {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-}
 
-.iconos-caja {
-  width: 80%;
-  border: 1px solid $second-color;
-  padding: 3%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin: 2% 0;
-  @include media(tablet) {
-    width: 40%;
-    height: 30vh;
-  }
-  @include media(desktop-lg) {
-    width: 30%;
-    padding: 1%;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-}
-
-.iconos-caja_content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 2%;
-
-  span {
-    text-transform: uppercase;
-    font-size: 0.9rem;
-    font-weight: bold;
-  }
-  .icon {
-    color: $main-color;
-  }
-}

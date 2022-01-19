@@ -76,6 +76,7 @@
   display: flex;
   align-items: baseline;
   text-align: center;
+  gap: 2em;
 }
 
 
@@ -85,13 +86,14 @@
   border-radius: 30px;
   padding: 10px 28px;
   margin-top: 1rem;
-  cursor: pointer;
+    cursor: pointer;
   text-decoration: none;
   color: black;
   text-transform: uppercase;
   font-weight: bold;
   @include media(tablet) {
     font-size: 1rem;
+
   }
   &:hover {
     font-weight: bold;

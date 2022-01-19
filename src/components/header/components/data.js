@@ -6,20 +6,7 @@ export const opcionesMenu = [
 		id: 1,
 		to: "home"
 	},
-	// {
-	// 	nombre: 'About',
-	// 	int: "menu.about",
-	// 	default: 'About',
-	// 	id: 2,
-	// 	to: "about"
-	// },
-	// {
-	// 	nombre: 'Service',
-	// 	int: "menu.services",
-	// 	default: 'Services',
-	// 	id: 3,
-	// 	to: "services"
-	// },
+
 	{
 		nombre: 'Portafolio',
 		int: "menu.portafolio",
@@ -30,7 +17,7 @@ export const opcionesMenu = [
 	{
 		nombre: 'skills',
 		int: "menu.skills",
-		default: 'Skills',
+		default:'Skills',
 		id: 3,
 		to: "Skills"
 	},

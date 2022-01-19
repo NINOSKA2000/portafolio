@@ -1,0 +1,64 @@
+
+@import '../../../styles/brakpoints.scss';
+@import '../../../styles/globales.scss';
+
+.cardProyect {
+position: relative;
+width: 100%;
+height: 220px;
+border-radius: 10px;
+overflow: hidden;
+transition: all 0.3s;
+
+.front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  visibility: hidden;
+  transform: scale(0.5);
+  transition: all 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .container-links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
+      p {
+        font-size: 2rem;
+        
+      }
+  }
+}
+&:hover {
+  box-shadow:0 0 16px $main-color, 0 0 18px #a8720c;
+  transform: scale(1.1);
+}
+&:hover .back {
+  visibility: visible;
+  opacity: 0.7;
+  cursor: pointer;
+  transform: scale(1);
+}
+
+}

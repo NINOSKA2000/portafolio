@@ -10,7 +10,7 @@ const ButtonLink = (props) => {
   return (
     <>
       <a
-        className="button-link"
+        className="main-contenedor-button"
         download={props.dowloand}
          onClick={(e)=> settargettext(e.target.innerText) }
         href={ targettext==="Download CV" ? (props.cvEnglish): props.cvEspañol }

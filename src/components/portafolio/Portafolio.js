@@ -1,45 +1,49 @@
-import React, { useState } from "react";
+import React from "react";
 
-import { listPortafolio } from "./components/data";
+// import { listPortafolio } from "./components/data";
+// import ButtonLink from "../utils/buttonLink";
+// import ProyectoLogo from "../../assets/imagen.svg";
 
 import "./portafolio.scss";
-import "animate.css";
-
-import ButtonLink from "../utils/buttonLink";
 import TitleSection from "../utils/titleSection";
 
-import Icons from "./components/Icons";
+import { proyect } from './components/dataProyect';
+import CardProyect from "./card-proyect/CardProyect";
+
 
 const Portafolio = () => {
-  const [filter, setFilter] = useState(listPortafolio);
+  // const [filter, setFilter] = useState(listPortafolio);
 
-  const getFiltros = (arreglo) => {
-    const setObj = new Set();
-    return listPortafolio.reduce((arreglo, item) => {
-      if (!setObj.has(item.filter)) {
-        setObj.add(item.filter, item);
-        arreglo.push(item);
-      }
-      return arreglo;
-    }, []);
-  };
+  // const getFiltros = (arreglo) => {
+  //   const setObj = new Set();
+  //   return listPortafolio.reduce((arreglo, item) => {
+  //     if (!setObj.has(item.filter)) {
+  //       setObj.add(item.filter, item);
+  //       arreglo.push(item);
+  //     }
+  //     return arreglo;
+  //   }, []);
+  // };
 
-  const handleFilter = (palabra) => {
-    const nuevo = listPortafolio.filter((item) => item.filter === palabra);
-    if (palabra === "portafolio-all-filter") {
-      setFilter(listPortafolio);
-    } else {
-      setFilter(nuevo);
-    }
-  };
+  // const handleFilter = (palabra) => {
+  //   const nuevo = listPortafolio.filter((item) => item.filter === palabra);
+  //   if (palabra === "portafolio-all-filter") {
+  //     setFilter(listPortafolio);
+  //   } else {
+  //     setFilter(nuevo);
+  //   }
+  // };
 
   return (
+
+    <>
+
     <section className="portafolio">
       <TitleSection
         title="portafolio-title"
         tipoTitle="global.title.singular"
       />
-      <div className="portafolio-filters">
+      {/* <div className="portafolio-filters">
         {getFiltros(listPortafolio).map((item, ind) => (
           <ButtonLink
             key={ind}
@@ -47,9 +51,9 @@ const Portafolio = () => {
             evento={() => handleFilter(item.filter)}
           />
         ))}
-      </div>
+      </div> */}
 
-      <div className="portafolio-images">
+      {/* <div className="portafolio-images">
         {filter
           .filter((item) => item.id !== 0)
           .map((proyecto, index) => (
@@ -66,10 +70,32 @@ const Portafolio = () => {
               </figure>
             </div>
           ))}
-      </div>
+      </div> */}
 
-      <Icons />
+    
+
+      <section id="proyect" className="proyect">
+        <div className="container">
+          <div className="container-proyectos">
+            {proyect.map(({ id, name, github, demo, lenguage, image }) => {
+              return (
+                <CardProyect
+                  key={id}
+                  name={name}
+                  github={github}
+                  demo={demo}
+                  lenguage={lenguage}
+                  image={image}
+                />
+              );
+            })}
+          </div>
+        </div>
+         </section>
     </section>
+ 
+  </>
+
   );
 };
 

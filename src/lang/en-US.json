@@ -7,7 +7,7 @@
   "menu.services": "Services",
   "menu.portafolio": "Portafolio",
   "menu.notes": "Notes",
-  "menu.network": "Social Networks",
+  "menu.network": "Contact Me",
 
   "main-greting": "Hi, I Am ",
   "main-profession": " ",
@@ -51,6 +51,11 @@
 	
 	"social-media-title-white": "networks",
 	"social-media-title-green": "social",
+  "social-media-description":"You can contact me through the form or through the networks mentioned below. I will try to answer you as fast as I can.",
+  "social-media-form-name":"your name",
+  "social-media-form-email":"your email",
+  "social-media-form-message":"message",
+  "social-media-form-send":"send message",
 	
 	"gretings": "Made ♥ by ©NataliaEspinoza",
   "cv":"https://drive.google.com/file/d/1KjoZvUh3oY3sY8KHgg5nTpbN1TJuxylk/view?usp=sharing"

@@ -1,6 +1,6 @@
 import { faEnvelopeOpenText } from '@fortawesome/free-solid-svg-icons'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
-import {  faLinkedin} from '@fortawesome/free-brands-svg-icons'
+import {  faLinkedin,faWhatsapp} from '@fortawesome/free-brands-svg-icons'
 
 
 export const socialMedia = [
@@ -25,5 +25,13 @@ export const socialMedia = [
 		name: "Linkedyn",
 		url: "https://www.linkedin.com/in/nataliaespinoza21/"
 	},
+	{
+		id: 4,
+		icon: faWhatsapp,
+		link: "link",
+		name: "Wattsap",
+		url: "https://api.whatsapp.com/send?phone=57972354728"
+	},
+
 
 ]

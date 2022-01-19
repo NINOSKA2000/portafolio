@@ -1,14 +1,102 @@
 @import "./../../styles/globales.scss";
+@import "./../../styles/brakpoints.scss";
+
+.section-social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  @include media(tablet) {
+    flex-direction: row;
+    gap: 2em;
+    justify-content: center;
+  }
+  @include media(desktop-lg) {
+    width: 80%;
+    flex-direction: row;
+    gap: 2em;
+    margin-left: 1em;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.social-photo {
+  width: 30%;
+  justify-content: center;
+  display: flex;
+  border: 2px double pink;
+  border-image: -webkit-linear-gradient(80deg, rgb(20, 19, 19), $main-color) 20
+    stretch;
+}
+
+.social-photo img {
+  width: 100%;
+  object-fit: fill;
+  }
+
+.section-contact {
+  width: 60%;
 
 
-.footer-icons {
+  &-message {
+    text-align: center;
+    font-weight: 600;
+    word-spacing: 0.2em;
+  }
+}
+
+.social-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  label {
+    margin-bottom: 0;
+  }
+
+  input,
+  textarea {
+    all: unset;
+    background-color: black;
+    border-style: none;
+    border: 0.1em double pink;
+    border-image: -webkit-linear-gradient(90deg, rgb(218, 11, 218), $main-color)
+      20 stretch;
+    padding: 0.5em;
+    opacity: 50%;
+      &:hover {
+      font-weight: bold;
+      color: $main-color;
+      opacity: 100%;
+      border: 0.1em double rgb(44, 7, 38);
+      border-image: -webkit-linear-gradient(
+          100deg,
+          rgb(218, 11, 218),
+          $main-color
+        )
+        20 stretch;
+    }
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+}
+
+.social-icons {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-	padding: 2rem 0;
+  padding: 2rem 0;
 }
 
-.footer-icons_box {
+.social-icons_box {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,8 +109,8 @@
     border-radius: 35px;
     padding: 0.5rem;
     cursor: pointer;
-		text-decoration: none;
-		color: white;
+    text-decoration: none;
+    color: white;
   }
   &-title {
     text-align: center;
@@ -33,4 +121,26 @@
   }
 }
 
+.container-wattsap {
+  bottom: 1vw !important;
+  position: fixed;
+  right: 1vw !important;
+}
 
+.social-wattsap {
+  transition-delay: 25ms;
+  color: $main-color;
+  background-size: contain;
+  box-shadow: 0 3px 6px #ffc107, 0 3px 6px #2c3e50;
+  border-radius: 50%;
+  border-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  margin: 1em 1em 0.5em;
+  position: relative;
+  transition: transform 0.1s ease-out, height 0.1s ease, opacity 0.1s ease;
+  text-decoration: none;
+}
