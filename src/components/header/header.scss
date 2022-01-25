@@ -12,6 +12,7 @@
   z-index: 2;
   @include media(desktop-lg) {
     padding: 0.8rem 1.5rem;
+   
   }
 }
 
@@ -19,7 +20,7 @@
   @include media(desktop-lg) {
     height: 100px;
     transition: 0.9s;
-    background: black;
+    background-color: rgba(0, 0, 0, 0.658);
   }
 }
 
@@ -31,6 +32,7 @@
     width: 25.6px;
     @include media(tablet) {
       height: 40px;
+      width: 28px;
     }
 
   }
