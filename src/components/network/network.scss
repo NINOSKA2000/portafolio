@@ -80,15 +80,15 @@
     border-image: -webkit-linear-gradient(90deg, rgb(218, 11, 218), $main-color)
       20 stretch;
     padding: 0.5em;
-    opacity: 50%;
+    // opacity: 50%;
       &:hover {
       font-weight: bold;
       color: $main-color;
-      opacity: 100%;
+      // opacity: 100%;
       border: 0.1em double rgb(44, 7, 38);
       border-image: -webkit-linear-gradient(
           100deg,
-          rgb(218, 11, 218),
+          rgb(19, 18, 19),
           $main-color
         )
         20 stretch;
