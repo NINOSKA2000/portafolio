@@ -1,11 +1,11 @@
 @import './../../../styles/globales.scss';
 
-// $main-color:  #08d665;
-// $second-color: #fff;
-// $third-color: #000;
-// $font : 'Poppins', sans-serif;
+$main-color:  #d68e08;
+$second-color: rgb(255, 255, 255);
+$third-color: #000;
+$font : 'Poppins', sans-serif;
 
-.button-link{
+.button-filter{
 	text-decoration: none;
 	display: inline-block;
 	color: $second-color;
@@ -13,4 +13,10 @@
 	border-radius: 2rem;
 	padding: 0.5rem 1.2rem;
 	cursor: pointer;
+	&:hover {
+		font-weight: bold;
+		color: $third-color;
+	
 }
+}
+

@@ -2,23 +2,26 @@
 @import "./../../styles/brakpoints.scss";
 
 .portafolio {
-  padding: 5rem 0;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
 
-//falta añadir los filtros 
+
 .portafolio-filters {
   padding: 2% 5%;
   width: 100%;
   display: flex;
+  flex-wrap:wrap;
   justify-content: space-evenly;
+  gap: 0.5rem;
   align-items: center;
   @include media(tablet) {
     justify-content: center;
+    flex-wrap:nowrap;
     gap: 1rem;
   }
+
 }
 
 

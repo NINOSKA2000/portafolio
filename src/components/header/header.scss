@@ -8,6 +8,7 @@
   padding: 1.5rem;
   position: fixed;
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.692);
   z-index: 2;
   @include media(desktop-lg) {
     padding: 0.8rem 1.5rem;
@@ -21,10 +22,22 @@
     background: black;
   }
 }
+
 .header-logo {
-  a {
+  display: flex;
+
+  img{
+    height: 30px;
+    width: 25.6px;
+    @include media(tablet) {
+      height: 40px;
+    }
+
+  }
+   a {
     cursor: pointer;
     color: $main-color;
+    display: flex;
     font-family: $font;
     font-size: 1.6rem;
     font-weight: bold;
@@ -33,6 +46,7 @@
       font-size: 1.9rem;
     }
   }
+
 }
 
 .header-menu {
@@ -43,7 +57,7 @@
   width: 70%;
   margin-left: -100%;
   transition: all 0.3s linear;
-  background-color: $main-color;
+  background: linear-gradient(0.25turn, #101111, $main-color,#7c4608b4);
   z-index: 1;
   @include media(desktop-lg) {
     position: initial;

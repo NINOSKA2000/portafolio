@@ -9,12 +9,15 @@
   align-items: center;
   gap: 1em;
   width: 100%;
-  padding: 1rem 1.5rem;
+  padding: 1rem 0rem;
+ 
+
   @include media(tablet) {
     flex-direction: row;
     gap: 2em;
     justify-content: center;
     align-items: flex-start;
+    padding: 1rem 1.5rem;
   }
   @include media(desktop-lg) {
     width: 80%;
@@ -23,6 +26,7 @@
     margin-left: 1em;
     justify-content: center;
     align-items: flex-start;
+    padding: 1rem 1.5rem;
   }
 }
 
@@ -45,7 +49,11 @@
   }
 
 .section-contact {
-  width: 60%;
+  width: 80%;
+  @include media(tablet) {
+    width: 60%;
+  }
+
 
 
   &-message {
