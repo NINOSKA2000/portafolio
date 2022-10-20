@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { hotjar } from 'react-hotjar';
+
 
 import "./header.scss";
 
@@ -7,7 +9,10 @@ import Nav from "./components/nav";
 import Idioms from "./components/idioms";
 import ButtonClose from "./components/buttonClose";
 
+
 const HeaderMenu = () => {
+
+
   const [open, setOpen] = useState("");
   const [close, setClose] = useState("");
 
@@ -35,8 +40,13 @@ const HeaderMenu = () => {
     };
   }, []);
 
+ 
+ 
+
+
   return (
     <header className={`header ${offset > 200 ? "scroll" : ""}`}>
+
       <HeaderTitle />
       <div className={`header-menu ${open}`}>
         <Nav event={closeMenu} />
